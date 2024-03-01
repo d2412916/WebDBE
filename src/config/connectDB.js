@@ -1,7 +1,7 @@
 // import { Sequelize } from '@sequelize/core';
 const { Sequelize } = require('sequelize')
 
-const sequelize = new Sequelize('testcreate', 'root', null, {
+const sequelize = new Sequelize('dungnguyen', 'root', null, {
     host: 'localhost',
     // one of our supported dialects:
     // 'mysql', 'mariadb', 'postgres', 'mssql', 'sqlite', 'snowflake', 'db2' or 'ibmi'
